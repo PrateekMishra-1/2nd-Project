@@ -1,0 +1,296 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    opacity:0.2;
+    z-index:-2;
+    
+}   
+
+.header {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    align-items:center;
+    top:0px;
+    display: flex;
+    height:100px;
+    margin-left: -12px;
+    margin-right: -8px;
+    position: sticky;
+    z-index: 100;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header li {
+    padding: 25px;
+    font-size: 23px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover {
+    background-color: rgba(0, 255, 255, 0.541);
+    border-radius: 5px;
+    color: chocolate;
+}
+
+
+
+.header {
+    background-color: rgba(0, 0, 0, 0.186);
+    color: aliceblue;
+}
+
+#logo img {
+    margin-left: 15px;
+    height: 96px;
+    width: 97px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.body{
+    margin-top: 0px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color:rgb(14, 11, 11);
+}
+
+.body::before{
+    content: "";
+    position: absolute;
+    background: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)no-repeat center center/cover;
+    top: -101px;
+    left: -8px;
+    z-index: -1;
+    width: 101%;
+    height: 158%;
+    opacity: 0.7;
+}
+
+.body h1{
+    margin-top: 210px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+#para2{
+    margin-bottom: -20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#para1{
+    margin-top: -13px;
+    margin-bottom: -20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btn{
+    margin:30px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 120px;
+    height: 26px;
+    border-color: black;
+}
+#btn:hover{
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+
+#imgbody{
+    height:300px;
+    width:200px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    font-size: 21px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+#items{
+    display: flex;
+    flex-direction: row;
+    margin: 19px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#items div{
+    padding: 20px;
+    border: 2px solid red;
+    margin: 18px;
+    border-radius: 10px;
+    background-color: rgba(190, 185, 185, 0.186);
+    font-size: 20px;
+}
+.sbottom1{
+    display: flex;
+    position: relative;
+    height:450px;
+    width:400px;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+.sbottom1::before{
+    content: "";
+    background: url('https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')no-repeat center center/cover;
+    height: 40%;
+    width:80%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+    /* opacity: 0.95; */
+}
+.sbottom2{
+    display: flex;
+    position: relative;
+    height:450px;
+    width:400px;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+.sbottom2::before{
+    content: "";
+    background: url('https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')no-repeat center center/cover;
+    height: 40%;
+    width:80%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+.sbottom3{
+    display: flex;
+    position: relative;
+    height:450px;
+    width:400px;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+.sbottom3::before{
+    content: "";
+    background: url('https://imgs.search.brave.com/UHpuBSHBm8Z2NQB2L6bIIOwVqdHI-TWig4EK9iPMV8g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kMWNz/YXJrejhvYmU5dS5j/bG91ZGZyb250Lm5l/dC9wb3N0ZXJwcmV2/aWV3cy9kZWxpdmVy/eS1mb29kLWxvZ28t/ZGVzaWduLXRlbXBs/YXRlLTA0ZTZlYzhm/MWFkYjA4MzMyY2U2/ZTdlYjA1ZjZkNjA2/X3NjcmVlbi5qcGc_/dHM9MTU4NDIxNzU4/Mg')no-repeat center center/cover;
+    height: 40%;
+    width:80%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+#footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 104%;
+    background: url(https://imgs.search.brave.com/mwXDfdo0Dzx0MGBD0YK5civGvR5nLQpVlpC7cbTfctM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5zaWdodHBhcnRu/ZXJzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMy8wMS9n/cmFkaWVudGFfbW9u/ZGF5LmpwZWc) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#footer h1{
+    font-size: 40px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+
+#slast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height:300px;
+}
+
+#slast img{
+    width:220px;
+    padding:60px;
+}
+
+.lastnigga{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+}
+
+.lastnigga::before{
+    content: "";
+    background: url(https://imgs.search.brave.com/34Yi3E9Pw7TCUw9aCjXjc7HM2hi9ILQHfbUPYKVH5Lk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzI5MDk4OTgzL3Iv/aWwvMTAxZmQwLzMx/MDI0NDEzMjAvaWxf/NjAweDYwMC4zMTAy/NDQxMzIwXzQ0ZjIu/anBn) center center / cover no-repeat;
+    position: absolute;
+    height: 48%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.form input, #message{
+
+    padding:4px;
+    margin: 4px;
+    width:480px;
+    border-radius: 8px;
+}
+
+.lastnigga h1{
+    font-size: 45px;
+}
+
+#pakkalast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+   
+}
