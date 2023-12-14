@@ -222,7 +222,7 @@ html{
     width: auto;
 }
 #footer::before {
-    content: "";
+    content: "";        
     position: absolute;
     top: 0;
     left: 0;
@@ -267,7 +267,7 @@ html{
     content: "";
     background: url(https://imgs.search.brave.com/34Yi3E9Pw7TCUw9aCjXjc7HM2hi9ILQHfbUPYKVH5Lk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzI5MDk4OTgzL3Iv/aWwvMTAxZmQwLzMx/MDI0NDEzMjAvaWxf/NjAweDYwMC4zMTAy/NDQxMzIwXzQ0ZjIu/anBn) center center / cover no-repeat;
     position: absolute;
-    height: 48%;
+    height: 44%;
     width: 100%;
     z-index: -1;
     opacity: 0.7;
